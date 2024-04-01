@@ -1,0 +1,17 @@
+.WTER{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WTERH1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+}
+.WP{
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 16px;
+    margin: 20px;
+}

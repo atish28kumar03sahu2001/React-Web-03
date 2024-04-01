@@ -1,0 +1,82 @@
+.Header-Nav{
+    display: flex;
+    background-color: rgb(58, 0, 58);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.HDNM{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.HDH1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+.HDNAuth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.HDNAuth1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.BTN{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+.SGUP{
+    background-color: rgb(69, 0, 0);
+}
+.LGOT{
+    background-color: rgb(0, 60, 0);
+}
+.PRF{
+    background-color: rgb(0, 0, 56);
+}
+.EXP{
+    background-color: rgb(0, 60, 79);
+}
+
+@media screen and (max-width: 760px){
+    .HDNM{
+        width: 40%;
+    }
+    .HDH1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Header-Nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .HDNAuth{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 550px) {
+    .HDH1{
+        font-size: 25px;
+    }
+}

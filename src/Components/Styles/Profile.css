@@ -1,0 +1,75 @@
+.PFHD {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.PFP {
+    font-size: 15px;
+    text-align: center;
+}
+
+.PFRMD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PFRMFD {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.IPL {
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.P {
+    width: 250px;
+    border-bottom: 2px solid white;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(105, 35, 0);
+}
+.PFB{
+    background-color: rgb(0, 101, 121);
+    display: block;
+    margin: 7px auto;   
+}
+.VEB{
+    background-color: rgb(84, 0, 42);
+    display: block;
+    margin: 7px auto; 
+}
+.PFDT{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 10px;
+}
+.PFDDT{
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+@media screen and (max-width: 425px) {
+    .PFHD {
+        flex-direction: column;
+    }
+}
